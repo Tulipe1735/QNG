@@ -3,6 +3,13 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  /* 全局默认字体：Poppins */
+  font-family: var(--font-poppins);
+}
+
+@theme {
+  /* 将 CSS 变量映射到 Tailwind 的字体族 */
+  --font-poppins: var(--font-poppins), ui-sans-serif, system-ui;
 }
 
 @theme inline {
