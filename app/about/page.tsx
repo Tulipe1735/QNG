@@ -49,7 +49,7 @@ export default function AboutPage() {
             {/* CTA 按钮 */}
             <div className="pt-4">
               <Link
-                href="/about/more"
+                href="/team"
                 className="inline-block bg-[#007bff] text-white px-10 py-4 rounded-xl font-bold text-lg shadow-[0_10px_20px_-5px_rgba(0,123,255,0.4)] hover:bg-[#0069d9] hover:shadow-lg transition-all active:scale-95 font-poppins"
               >
                 Learn More About Us
